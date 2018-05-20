@@ -1,0 +1,93 @@
+C:\Users\203\source\repos\Messenger\Messenger\bin\Debug\Messenger.exe.config
+C:\Users\203\source\repos\Messenger\Messenger\bin\Debug\Messenger.exe
+C:\Users\203\source\repos\Messenger\Messenger\bin\Debug\Messenger.pdb
+C:\Users\203\source\repos\Messenger\Messenger\obj\Debug\Messenger.csprojResolveAssemblyReference.cache
+C:\Users\203\source\repos\Messenger\Messenger\obj\Debug\Messenger.Form1.resources
+C:\Users\203\source\repos\Messenger\Messenger\obj\Debug\Messenger.Properties.Resources.resources
+C:\Users\203\source\repos\Messenger\Messenger\obj\Debug\Messenger.csproj.GenerateResource.Cache
+C:\Users\203\source\repos\Messenger\Messenger\obj\Debug\Messenger.csproj.CoreCompileInputs.cache
+C:\Users\203\source\repos\Messenger\Messenger\obj\Debug\Messenger.exe
+C:\Users\203\source\repos\Messenger\Messenger\obj\Debug\Messenger.pdb
+C:\Users\User\Desktop\C#\Messenger\Messenger\bin\Debug\Messenger.exe.config
+C:\Users\User\Desktop\C#\Messenger\Messenger\bin\Debug\Messenger.exe
+C:\Users\User\Desktop\C#\Messenger\Messenger\bin\Debug\Messenger.pdb
+C:\Users\User\Desktop\C#\Messenger\Messenger\obj\Debug\Messenger.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\C#\Messenger\Messenger\obj\Debug\Messenger.Properties.Resources.resources
+C:\Users\User\Desktop\C#\Messenger\Messenger\obj\Debug\Messenger.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\C#\Messenger\Messenger\obj\Debug\Messenger.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C#\Messenger\Messenger\obj\Debug\Messenger.exe
+C:\Users\User\Desktop\C#\Messenger\Messenger\obj\Debug\Messenger.pdb
+C:\Users\User\Desktop\C#\Messenger\Messenger\obj\Debug\Messenger.Login.resources
+C:\Users\User\Desktop\C#\Messenger\Messenger\bin\Debug\MyImageButton.dll
+C:\Users\User\Desktop\C#\Messenger\Messenger\bin\Debug\MyImageButton.pdb
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\bin\Debug\Messenger.exe.config
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\bin\Debug\Messenger.exe
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\bin\Debug\Messenger.pdb
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\bin\Debug\MyImageButton.dll
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\bin\Debug\MyImageButton.pdb
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Debug\Messenger.csprojResolveAssemblyReference.cache
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Debug\Messenger.Login.resources
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Debug\Messenger.Properties.Resources.resources
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Debug\Messenger.csproj.GenerateResource.Cache
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Debug\Messenger.exe
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Debug\Messenger.pdb
+C:\Users\User\Desktop\C#\Messenger\Messenger\obj\Debug\Messenger.SingUp.resources
+C:\Users\User\Desktop\C#\Messenger\Messenger\obj\Debug\Messenger.PlaceHolder.resources
+C:\Users\User\Desktop\C#\Messenger\Messenger\obj\Debug\Messenger.BigShaq1.resources
+C:\Users\322\Desktop\Messenger\Messenger\bin\Debug\Messenger.exe.config
+C:\Users\322\Desktop\Messenger\Messenger\bin\Debug\Messenger.exe
+C:\Users\322\Desktop\Messenger\Messenger\bin\Debug\Messenger.pdb
+C:\Users\322\Desktop\Messenger\Messenger\bin\Debug\MyImageButton.dll
+C:\Users\322\Desktop\Messenger\Messenger\bin\Debug\MyImageButton.pdb
+C:\Users\322\Desktop\Messenger\Messenger\obj\Debug\Messenger.csprojResolveAssemblyReference.cache
+C:\Users\322\Desktop\Messenger\Messenger\obj\Debug\Messenger.BigShaq1.resources
+C:\Users\322\Desktop\Messenger\Messenger\obj\Debug\Messenger.PlaceHolder.resources
+C:\Users\322\Desktop\Messenger\Messenger\obj\Debug\Messenger.Login.resources
+C:\Users\322\Desktop\Messenger\Messenger\obj\Debug\Messenger.Properties.Resources.resources
+C:\Users\322\Desktop\Messenger\Messenger\obj\Debug\Messenger.SingUp.resources
+C:\Users\322\Desktop\Messenger\Messenger\obj\Debug\Messenger.csproj.GenerateResource.Cache
+C:\Users\322\Desktop\Messenger\Messenger\obj\Debug\Messenger.csproj.CoreCompileInputs.cache
+C:\Users\322\Desktop\Messenger\Messenger\obj\Debug\Messenger.exe
+C:\Users\322\Desktop\Messenger\Messenger\obj\Debug\Messenger.pdb
+C:\Users\322\Desktop\Messenger\Messenger\bin\Debug\Resources\Messenger_log.ldf
+C:\Users\322\Desktop\Messenger\Messenger\bin\Debug\Resources\Messenger.mdf
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\bin\Debug\Resources\Messenger_log.ldf
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\bin\Debug\Resources\Messenger.mdf
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Debug\Messenger.BigShaq1.resources
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Debug\Messenger.PlaceHolder.resources
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Debug\Messenger.SingUp.resources
+C:\Users\User\Desktop\Messenger\Messenger\bin\Debug\Resources\Messenger_log.ldf
+C:\Users\User\Desktop\Messenger\Messenger\bin\Debug\Resources\Messenger.mdf
+C:\Users\User\Desktop\Messenger\Messenger\bin\Debug\Messenger.exe.config
+C:\Users\User\Desktop\Messenger\Messenger\bin\Debug\Messenger.exe
+C:\Users\User\Desktop\Messenger\Messenger\bin\Debug\Messenger.pdb
+C:\Users\User\Desktop\Messenger\Messenger\bin\Debug\MyImageButton.dll
+C:\Users\User\Desktop\Messenger\Messenger\bin\Debug\MyImageButton.pdb
+C:\Users\User\Desktop\Messenger\Messenger\obj\Debug\Messenger.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Messenger\Messenger\obj\Debug\Messenger.BigShaq1.resources
+C:\Users\User\Desktop\Messenger\Messenger\obj\Debug\Messenger.PlaceHolder.resources
+C:\Users\User\Desktop\Messenger\Messenger\obj\Debug\Messenger.Login.resources
+C:\Users\User\Desktop\Messenger\Messenger\obj\Debug\Messenger.Properties.Resources.resources
+C:\Users\User\Desktop\Messenger\Messenger\obj\Debug\Messenger.SingUp.resources
+C:\Users\User\Desktop\Messenger\Messenger\obj\Debug\Messenger.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Messenger\Messenger\obj\Debug\Messenger.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Messenger\Messenger\obj\Debug\Messenger.exe
+C:\Users\User\Desktop\Messenger\Messenger\obj\Debug\Messenger.pdb
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Debug\Messenger.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\bin\Debug\Resources\Messenger_log.ldf
+C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\bin\Debug\Resources\Messenger.mdf
+C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\bin\Debug\Messenger.exe.config
+C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\bin\Debug\Messenger.exe
+C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\bin\Debug\Messenger.pdb
+C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\bin\Debug\MyImageButton.dll
+C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\bin\Debug\MyImageButton.pdb
+C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\obj\Debug\Messenger.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\obj\Debug\Messenger.BigShaq1.resources
+C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\obj\Debug\Messenger.PlaceHolder.resources
+C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\obj\Debug\Messenger.Login.resources
+C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\obj\Debug\Messenger.Properties.Resources.resources
+C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\obj\Debug\Messenger.SingUp.resources
+C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\obj\Debug\Messenger.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\obj\Debug\Messenger.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\obj\Debug\Messenger.exe
+C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\obj\Debug\Messenger.pdb

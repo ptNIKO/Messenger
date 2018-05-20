@@ -1,0 +1,16 @@
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\bin\Release\Messenger.exe.config
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\bin\Release\Resources\Messenger_log.ldf
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\bin\Release\Resources\Messenger.mdf
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\bin\Release\Messenger.exe
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\bin\Release\Messenger.pdb
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\bin\Release\MyImageButton.dll
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\bin\Release\MyImageButton.pdb
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Release\Messenger.csprojResolveAssemblyReference.cache
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Release\Messenger.BigShaq1.resources
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Release\Messenger.PlaceHolder.resources
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Release\Messenger.Login.resources
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Release\Messenger.Properties.Resources.resources
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Release\Messenger.SingUp.resources
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Release\Messenger.csproj.GenerateResource.Cache
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Release\Messenger.exe
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Release\Messenger.pdb

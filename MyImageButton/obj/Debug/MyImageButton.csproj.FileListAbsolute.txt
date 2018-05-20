@@ -1,0 +1,45 @@
+C:\Users\User\Desktop\C#\Messenger\MyImageButton\bin\Debug\MyImageButton.dll
+C:\Users\User\Desktop\C#\Messenger\MyImageButton\bin\Debug\MyImageButton.pdb
+C:\Users\User\Desktop\C#\Messenger\MyImageButton\obj\Debug\MyImageButton.CustomImageButton.resources
+C:\Users\User\Desktop\C#\Messenger\MyImageButton\obj\Debug\MyImageButton.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\C#\Messenger\MyImageButton\obj\Debug\MyImageButton.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C#\Messenger\MyImageButton\obj\Debug\MyImageButton.dll
+C:\Users\User\Desktop\C#\Messenger\MyImageButton\obj\Debug\MyImageButton.pdb
+C:\Users\User\Desktop\C#\Messenger\MyImageButton\obj\Debug\MyImageButton.UserControl1.resources
+C:\Users\User\Desktop\C#\Messenger\MyImageButton\obj\Debug\MyImageButton.csprojResolveAssemblyReference.cache
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\bin\Debug\MyImageButton.dll
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\bin\Debug\MyImageButton.pdb
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\obj\Debug\MyImageButton.CustomImageButton.resources
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\obj\Debug\MyImageButton.UserControl1.resources
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\obj\Debug\MyImageButton.csproj.GenerateResource.Cache
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\obj\Debug\MyImageButton.dll
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\obj\Debug\MyImageButton.pdb
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\obj\Debug\MyImageButton.csprojResolveAssemblyReference.cache
+C:\Users\322\Desktop\Messenger\MyImageButton\bin\Debug\MyImageButton.dll
+C:\Users\322\Desktop\Messenger\MyImageButton\bin\Debug\MyImageButton.pdb
+C:\Users\322\Desktop\Messenger\MyImageButton\obj\Debug\MyImageButton.csprojResolveAssemblyReference.cache
+C:\Users\322\Desktop\Messenger\MyImageButton\obj\Debug\MyImageButton.CustomImageButton.resources
+C:\Users\322\Desktop\Messenger\MyImageButton\obj\Debug\MyImageButton.UserControl1.resources
+C:\Users\322\Desktop\Messenger\MyImageButton\obj\Debug\MyImageButton.csproj.GenerateResource.Cache
+C:\Users\322\Desktop\Messenger\MyImageButton\obj\Debug\MyImageButton.csproj.CoreCompileInputs.cache
+C:\Users\322\Desktop\Messenger\MyImageButton\obj\Debug\MyImageButton.dll
+C:\Users\322\Desktop\Messenger\MyImageButton\obj\Debug\MyImageButton.pdb
+C:\Users\User\Desktop\Messenger\MyImageButton\bin\Debug\MyImageButton.dll
+C:\Users\User\Desktop\Messenger\MyImageButton\bin\Debug\MyImageButton.pdb
+C:\Users\User\Desktop\Messenger\MyImageButton\obj\Debug\MyImageButton.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Messenger\MyImageButton\obj\Debug\MyImageButton.CustomImageButton.resources
+C:\Users\User\Desktop\Messenger\MyImageButton\obj\Debug\MyImageButton.UserControl1.resources
+C:\Users\User\Desktop\Messenger\MyImageButton\obj\Debug\MyImageButton.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Messenger\MyImageButton\obj\Debug\MyImageButton.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Messenger\MyImageButton\obj\Debug\MyImageButton.dll
+C:\Users\User\Desktop\Messenger\MyImageButton\obj\Debug\MyImageButton.pdb
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\obj\Debug\MyImageButton.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Диплом\Del\Messenger\MyImageButton\bin\Debug\MyImageButton.dll
+C:\Users\User\Desktop\Диплом\Del\Messenger\MyImageButton\bin\Debug\MyImageButton.pdb
+C:\Users\User\Desktop\Диплом\Del\Messenger\MyImageButton\obj\Debug\MyImageButton.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Диплом\Del\Messenger\MyImageButton\obj\Debug\MyImageButton.CustomImageButton.resources
+C:\Users\User\Desktop\Диплом\Del\Messenger\MyImageButton\obj\Debug\MyImageButton.UserControl1.resources
+C:\Users\User\Desktop\Диплом\Del\Messenger\MyImageButton\obj\Debug\MyImageButton.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Диплом\Del\Messenger\MyImageButton\obj\Debug\MyImageButton.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Диплом\Del\Messenger\MyImageButton\obj\Debug\MyImageButton.dll
+C:\Users\User\Desktop\Диплом\Del\Messenger\MyImageButton\obj\Debug\MyImageButton.pdb

@@ -1,0 +1,7 @@
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\bin\Release\MyImageButton.dll
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\bin\Release\MyImageButton.pdb
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\obj\Release\MyImageButton.CustomImageButton.resources
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\obj\Release\MyImageButton.UserControl1.resources
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\obj\Release\MyImageButton.csproj.GenerateResource.Cache
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\obj\Release\MyImageButton.dll
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\obj\Release\MyImageButton.pdb
