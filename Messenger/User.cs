@@ -31,7 +31,7 @@ namespace Messenger
             set { password = value; }
         }
 
-        public User() { }
+        public User() { }//Pustoi sdfgdfgsdgsd
 
 
         public User(String firstName, String email, String password)
