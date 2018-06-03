@@ -20,8 +20,6 @@ namespace Messenger
             InitializeComponent();
             this.user = user;
            
-
-
         }
 
 
@@ -154,6 +152,14 @@ namespace Messenger
 
         }
 
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AddFriend af = new AddFriend();
+            // af.Show();
+            af.StartPosition = FormStartPosition.CenterParent;        
+            af.ShowDialog();
+           
+           
+        }
     }
 }
