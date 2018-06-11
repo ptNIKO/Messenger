@@ -170,11 +170,22 @@ namespace Messenger
         {
             try
             {
-                user.FirstName = NameText.Text;
-                user.Email = placeHolder1.Text;
-                user.Password = passwordText.Text;
-                userDAO.AddUser(user);
-                MessageBox.Show("Регистрация прошла успешно!");
+                if (NameText.Text != "First Name" && placeHolder1.Text != "Email" && passwordText.Text != "Password")
+                {
+                    user.FirstName = NameText.Text;
+                    user.Email = placeHolder1.Text;
+                    user.Password = passwordText.Text;
+                    userDAO.AddUser(user);
+                    MessageBox.Show("Регистрация прошла успешно!");
+                }
+                else
+                {
+                    panel1.BackColor = Color.Red;
+                    panel2.BackColor = Color.Red;
+                    panel3.BackColor = Color.Red;
+                }
+                  
+
             }
             catch
             {
