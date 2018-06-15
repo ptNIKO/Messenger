@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Runtime.InteropServices;
 
 
 namespace Messenger
@@ -22,7 +23,7 @@ namespace Messenger
         {
             InitializeComponent();
             userDAO = new UserDAO();
-           
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -30,7 +31,7 @@ namespace Messenger
             pictureBox3.Parent = pictureBox1;
             pictureBox4.Parent = pictureBox1;
             passwordText.ForeColor = Color.LightGray;
-            NameText.ForeColor = Color.LightGray;                 
+            NameText.ForeColor = Color.LightGray;
         }
 
 
@@ -48,7 +49,7 @@ namespace Messenger
         private void userControl11_Click(object sender, EventArgs e)
         {
             if (max == true) { WindowState = FormWindowState.Maximized; max = false; }
-            else 
+            else
             { WindowState = FormWindowState.Normal; max = true; }
 
         }
@@ -92,7 +93,7 @@ namespace Messenger
                 passwordText.ForeColor = Color.WhiteSmoke;
                 passwordText.PasswordChar = '●';
             }
-            
+
 
         }
 
@@ -101,7 +102,7 @@ namespace Messenger
 
             if (passwordText.Text == "")
             {
-                passwordText.Text = "Password";              
+                passwordText.Text = "Password";
                 passwordText.ForeColor = Color.LightGray;
                 passwordText.PasswordChar = '\0';
             }
@@ -113,9 +114,17 @@ namespace Messenger
             pictureBox5.Focus();
         }
 
+        int adminMode = 0;
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             pictureBox5.Focus();
+            adminMode++;
+            if (adminMode == 5)
+            {
+                label1.Visible = true;
+            }
+           
+
         }
 
         private void customImageButton2_MouseEnter(object sender, EventArgs e)
@@ -129,13 +138,13 @@ namespace Messenger
         }
 
         private void label2_MouseEnter(object sender, EventArgs e)
-        {       
-    
+        {
+
             if (clicked == true)
             {
                 label2.Font = new Font("Microsoft Sans", 14, FontStyle.Underline);
             }
-            else { label2.Font = new Font("Microsoft Sans",14, FontStyle.Regular);}
+            else { label2.Font = new Font("Microsoft Sans", 14, FontStyle.Regular); }
 
 
         }
@@ -156,9 +165,9 @@ namespace Messenger
 
         private void label2_MouseLeave(object sender, EventArgs e)
         {
-            if(clicked == true)
-            { 
-            label2.Font = new Font("Microsoft Sans", 11, FontStyle.Underline);
+            if (clicked == true)
+            {
+                label2.Font = new Font("Microsoft Sans", 11, FontStyle.Underline);
             }
             else { label2.Font = new Font("Microsoft Sans", 11); }
         }
@@ -182,25 +191,25 @@ namespace Messenger
         {
             pictureBox5.BackColor = Color.WhiteSmoke;
         }
-       
+
         private void Login_Move(object sender, EventArgs e)
         {
-          
+
         }
 
-        
+
         public void Login_SizeChanged(object sender, EventArgs e)
         {
-          
+
         }
 
-        
+
 
         private void label3_Click(object sender, EventArgs e)
         {
             try
             {
-                user =  userDAO.GetUser(NameText.Text, passwordText.Text);
+                user = userDAO.GetUser(NameText.Text, passwordText.Text);
                 BigShaq1 BigShaq1 = new BigShaq1(user);
                 BigShaq1.Show();
                 this.Hide();
@@ -208,13 +217,47 @@ namespace Messenger
             catch
             {
                 MessageBox.Show("Не правильный логин или пароль");
-            }            
+            }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
 
         }
-    }
 
+        #region Admin
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Task.Factory.StartNew(Console);
+        }
+     
+        private void Console()
+        {
+          
+            if (AllocConsole())
+            {           
+                while (true)
+                {
+                    System.Console.WriteLine("Для выхода наберите exit.");
+                    string output = System.Console.ReadLine();
+                    if (output == "exit")
+                        break;
+
+              
+                  
+
+                }           
+                FreeConsole();
+            }
+        }
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        [return: MarshalAs(UnmanagedType.Bool)]
+        private static extern bool AllocConsole();
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        [return: MarshalAs(UnmanagedType.Bool)]
+        private static extern bool FreeConsole();
+        #endregion
+    }
 }

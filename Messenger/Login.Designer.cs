@@ -43,6 +43,7 @@
             this.customImageButton3 = new MyImageButton.CustomImageButton();
             this.customImageButton2 = new MyImageButton.CustomImageButton();
             this.userControl11 = new MyImageButton.UserControl1();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -252,12 +253,28 @@
             this.userControl11.MouseEnter += new System.EventHandler(this.userControl11_MouseEnter);
             this.userControl11.MouseLeave += new System.EventHandler(this.userControl11_MouseLeave);
             // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(12, 554);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(104, 20);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Admin(Betta)";
+            this.label1.Visible = false;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(948, 583);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.customImageButton3);
             this.Controls.Add(this.customImageButton2);
@@ -310,6 +327,7 @@
         private MyImageButton.CustomImageButton customImageButton3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Label label1;
     }
 }
 

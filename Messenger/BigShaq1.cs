@@ -164,7 +164,7 @@ namespace Messenger
 
         private void button2_Click(object sender, EventArgs e)
         {
-            AddFriend af = new AddFriend();
+            CreateLB af = new CreateLB();
             // af.Show();
             af.StartPosition = FormStartPosition.CenterParent;
             af.ShowDialog();

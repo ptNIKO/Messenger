@@ -58,9 +58,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.DodgerBlue;
             this.pictureBox1.Location = new System.Drawing.Point(-1, 23);
             this.pictureBox1.Name = "pictureBox1";
@@ -97,6 +94,9 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(240, 23);
             this.pictureBox2.Name = "pictureBox2";
@@ -107,6 +107,7 @@
             // 
             // button1
             // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button1.BackColor = System.Drawing.Color.DodgerBlue;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DeepSkyBlue;
@@ -123,21 +124,24 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox3.BackColor = System.Drawing.Color.White;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(895, 543);
+            this.pictureBox3.Location = new System.Drawing.Point(895, 545);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(52, 40);
+            this.pictureBox3.Size = new System.Drawing.Size(52, 38);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 23;
             this.pictureBox3.TabStop = false;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(240, 543);
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox1.Location = new System.Drawing.Point(240, 545);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(657, 40);
+            this.textBox1.Size = new System.Drawing.Size(657, 38);
             this.textBox1.TabIndex = 24;
             // 
             // pictureBox4
@@ -152,11 +156,13 @@
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.White;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 205);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 155);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(240, 340);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(240, 390);
             this.flowLayoutPanel1.TabIndex = 26;
             // 
             // button2
@@ -169,9 +175,9 @@
             this.button2.ForeColor = System.Drawing.Color.Gray;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(3, 103);
+            this.button2.Location = new System.Drawing.Point(0, 102);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(231, 46);
+            this.button2.Size = new System.Drawing.Size(240, 46);
             this.button2.TabIndex = 23;
             this.button2.Text = "New Group";
             this.button2.UseVisualStyleBackColor = false;
@@ -194,7 +200,7 @@
             this.pictureBox7.BackColor = System.Drawing.Color.White;
             this.pictureBox7.Location = new System.Drawing.Point(0, 98);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(240, 101);
+            this.pictureBox7.Size = new System.Drawing.Size(240, 51);
             this.pictureBox7.TabIndex = 28;
             this.pictureBox7.TabStop = false;
             // 

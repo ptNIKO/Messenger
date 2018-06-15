@@ -19,7 +19,7 @@ namespace Messenger
         {
             InitializeComponent();
             string connStr = "Data Source=BOS;Initial Catalog=Messenger;Integrated Security=True";
-          
+
             SqlConnection conn = new SqlConnection(connStr);
             try
             {
@@ -35,12 +35,12 @@ namespace Messenger
             while (dr.Read())
             {
                 nameS = dr.GetString(1);
-                Friend puc= new Friend(nameS);
+                Friend puc = new Friend(nameS);
                 flowLayoutPanel1.Controls.Add(puc);
             }
 
         }
-      
+
         private void customImageButton2_Click(object sender, EventArgs e)
         {
             //Application.Exit();

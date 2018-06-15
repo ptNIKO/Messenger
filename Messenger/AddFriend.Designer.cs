@@ -36,7 +36,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.placeHolder2 = new Messenger.PlaceHolder();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -87,9 +87,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.placeHolder2);
-            this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.flowLayoutPanel1);
             this.panel1.Location = new System.Drawing.Point(0, 24);
             this.panel1.Name = "panel1";
@@ -99,7 +99,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Silver;
-            this.panel2.Location = new System.Drawing.Point(255, 196);
+            this.panel2.Location = new System.Drawing.Point(143, 50);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(115, 1);
             this.panel2.TabIndex = 3;
@@ -107,38 +107,30 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(273, 204);
+            this.button1.Location = new System.Drawing.Point(45, 404);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 28);
             this.button1.TabIndex = 1;
-            this.button1.Text = "Create";
+            this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 3);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(143, 57);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(215, 429);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(215, 375);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
-            // placeHolder2
+            // label1
             // 
-            this.placeHolder2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.placeHolder2.BackColor = System.Drawing.Color.White;
-            this.placeHolder2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.placeHolder2.ColorText = System.Drawing.Color.Gray;
-            this.placeHolder2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.placeHolder2.ForeColor = System.Drawing.Color.Gray;
-            this.placeHolder2.Location = new System.Drawing.Point(255, 174);
-            this.placeHolder2.Multiline = true;
-            this.placeHolder2.Name = "placeHolder2";
-            this.placeHolder2.Size = new System.Drawing.Size(115, 20);
-            this.placeHolder2.TabIndex = 5;
-            this.placeHolder2.TabStop = false;
-            this.placeHolder2.Text = "Name Lobby";
-            this.placeHolder2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.placeHolder2.TextPalace = "Name Lobby";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(172, 27);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(47, 20);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Users";
             // 
             // AddFriend
             // 
@@ -174,6 +166,6 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel2;
-        private PlaceHolder placeHolder2;
+        private System.Windows.Forms.Label label1;
     }
 }

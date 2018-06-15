@@ -108,5 +108,6 @@ C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Debug\Messenger.cspro
 C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Debug\Messenger.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Debug\Messenger.exe
 C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Debug\Messenger.pdb
-C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Debug\Messenger.AddFriend.resources
 C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Debug\Messenger.Custom.Friend.resources
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Debug\Messenger.CreateLB.resources
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Debug\Messenger.AddFriend.resources

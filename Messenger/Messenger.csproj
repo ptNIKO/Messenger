@@ -68,6 +68,12 @@
     <Compile Include="AddFriend.Designer.cs">
       <DependentUpon>AddFriend.cs</DependentUpon>
     </Compile>
+    <Compile Include="CreateLB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateLB.Designer.cs">
+      <DependentUpon>CreateLB.cs</DependentUpon>
+    </Compile>
     <Compile Include="BigShaq1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     <Compile Include="UserDAO.cs" />
     <EmbeddedResource Include="AddFriend.resx">
       <DependentUpon>AddFriend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateLB.resx">
+      <DependentUpon>CreateLB.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BigShaq1.resx">
       <DependentUpon>BigShaq1.cs</DependentUpon>
