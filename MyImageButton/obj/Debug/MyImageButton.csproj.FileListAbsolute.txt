@@ -43,3 +43,11 @@ C:\Users\User\Desktop\Диплом\Del\Messenger\MyImageButton\obj\Debug\MyImage
 C:\Users\User\Desktop\Диплом\Del\Messenger\MyImageButton\obj\Debug\MyImageButton.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Диплом\Del\Messenger\MyImageButton\obj\Debug\MyImageButton.dll
 C:\Users\User\Desktop\Диплом\Del\Messenger\MyImageButton\obj\Debug\MyImageButton.pdb
+C:\Users\User\Desktop\Диплом\Messenger\MyImageButton\bin\Debug\MyImageButton.dll
+C:\Users\User\Desktop\Диплом\Messenger\MyImageButton\bin\Debug\MyImageButton.pdb
+C:\Users\User\Desktop\Диплом\Messenger\MyImageButton\obj\Debug\MyImageButton.CustomImageButton.resources
+C:\Users\User\Desktop\Диплом\Messenger\MyImageButton\obj\Debug\MyImageButton.UserControl1.resources
+C:\Users\User\Desktop\Диплом\Messenger\MyImageButton\obj\Debug\MyImageButton.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Диплом\Messenger\MyImageButton\obj\Debug\MyImageButton.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Диплом\Messenger\MyImageButton\obj\Debug\MyImageButton.dll
+C:\Users\User\Desktop\Диплом\Messenger\MyImageButton\obj\Debug\MyImageButton.pdb

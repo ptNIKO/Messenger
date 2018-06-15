@@ -25,8 +25,6 @@ namespace Messenger
            
         }
 
-        
-
         private void Form1_Load(object sender, EventArgs e)
         {
             pictureBox3.Parent = pictureBox1;

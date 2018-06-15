@@ -31,9 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BigShaq1));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.customImageButton3 = new MyImageButton.CustomImageButton();
-            this.customImageButton2 = new MyImageButton.CustomImageButton();
-            this.userControl11 = new MyImageButton.UserControl1();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -41,14 +38,22 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.customImageButton3 = new MyImageButton.CustomImageButton();
+            this.customImageButton2 = new MyImageButton.CustomImageButton();
+            this.userControl11 = new MyImageButton.UserControl1();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.customImageButton3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.userControl11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customImageButton3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.userControl11)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -80,59 +85,11 @@
             this.pictureBox5.MouseEnter += new System.EventHandler(this.pictureBox5_MouseEnter);
             this.pictureBox5.MouseLeave += new System.EventHandler(this.pictureBox5_MouseLeave);
             // 
-            // customImageButton3
-            // 
-            this.customImageButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.customImageButton3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.customImageButton3.Enabled = false;
-            this.customImageButton3.Image = ((System.Drawing.Image)(resources.GetObject("customImageButton3.Image")));
-            this.customImageButton3.ImageHover = ((System.Drawing.Image)(resources.GetObject("customImageButton3.ImageHover")));
-            this.customImageButton3.ImageNormal = ((System.Drawing.Image)(resources.GetObject("customImageButton3.ImageNormal")));
-            this.customImageButton3.Location = new System.Drawing.Point(924, -1);
-            this.customImageButton3.Name = "customImageButton3";
-            this.customImageButton3.Size = new System.Drawing.Size(23, 23);
-            this.customImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.customImageButton3.TabIndex = 18;
-            this.customImageButton3.TabStop = false;
-            this.customImageButton3.Visible = false;
-            // 
-            // customImageButton2
-            // 
-            this.customImageButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.customImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("customImageButton2.Image")));
-            this.customImageButton2.ImageHover = ((System.Drawing.Image)(resources.GetObject("customImageButton2.ImageHover")));
-            this.customImageButton2.ImageNormal = ((System.Drawing.Image)(resources.GetObject("customImageButton2.ImageNormal")));
-            this.customImageButton2.Location = new System.Drawing.Point(924, -1);
-            this.customImageButton2.Name = "customImageButton2";
-            this.customImageButton2.Size = new System.Drawing.Size(23, 23);
-            this.customImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.customImageButton2.TabIndex = 17;
-            this.customImageButton2.TabStop = false;
-            this.customImageButton2.Click += new System.EventHandler(this.customImageButton2_Click_1);
-            this.customImageButton2.MouseEnter += new System.EventHandler(this.customImageButton2_MouseEnter);
-            this.customImageButton2.MouseLeave += new System.EventHandler(this.customImageButton2_MouseLeave);
-            // 
-            // userControl11
-            // 
-            this.userControl11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.userControl11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.userControl11.Image = ((System.Drawing.Image)(resources.GetObject("userControl11.Image")));
-            this.userControl11.ImageHover = ((System.Drawing.Image)(resources.GetObject("userControl11.ImageHover")));
-            this.userControl11.ImageNormal = ((System.Drawing.Image)(resources.GetObject("userControl11.ImageNormal")));
-            this.userControl11.Location = new System.Drawing.Point(895, -1);
-            this.userControl11.Name = "userControl11";
-            this.userControl11.Size = new System.Drawing.Size(23, 23);
-            this.userControl11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.userControl11.TabIndex = 7;
-            this.userControl11.TabStop = false;
-            this.userControl11.Click += new System.EventHandler(this.userControl11_Click);
-            this.userControl11.MouseEnter += new System.EventHandler(this.userControl11_MouseEnter);
-            this.userControl11.MouseLeave += new System.EventHandler(this.userControl11_MouseLeave);
-            // 
             // label1
             // 
+            this.label1.BackColor = System.Drawing.Color.DodgerBlue;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(111, 50);
+            this.label1.Location = new System.Drawing.Point(91, 54);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(89, 26);
             this.label1.TabIndex = 20;
@@ -196,11 +153,99 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Gray;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 98);
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.White;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 205);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(240, 447);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(240, 340);
             this.flowLayoutPanel1.TabIndex = 26;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button2.ForeColor = System.Drawing.Color.Gray;
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(3, 103);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(231, 46);
+            this.button2.TabIndex = 23;
+            this.button2.Text = "New Group";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.DodgerBlue;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(3, 35);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(65, 57);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 27;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.White;
+            this.pictureBox7.Location = new System.Drawing.Point(0, 98);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(240, 101);
+            this.pictureBox7.TabIndex = 28;
+            this.pictureBox7.TabStop = false;
+            // 
+            // customImageButton3
+            // 
+            this.customImageButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.customImageButton3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.customImageButton3.Enabled = false;
+            this.customImageButton3.Image = ((System.Drawing.Image)(resources.GetObject("customImageButton3.Image")));
+            this.customImageButton3.ImageHover = ((System.Drawing.Image)(resources.GetObject("customImageButton3.ImageHover")));
+            this.customImageButton3.ImageNormal = ((System.Drawing.Image)(resources.GetObject("customImageButton3.ImageNormal")));
+            this.customImageButton3.Location = new System.Drawing.Point(924, -1);
+            this.customImageButton3.Name = "customImageButton3";
+            this.customImageButton3.Size = new System.Drawing.Size(23, 23);
+            this.customImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.customImageButton3.TabIndex = 18;
+            this.customImageButton3.TabStop = false;
+            this.customImageButton3.Visible = false;
+            // 
+            // customImageButton2
+            // 
+            this.customImageButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.customImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("customImageButton2.Image")));
+            this.customImageButton2.ImageHover = ((System.Drawing.Image)(resources.GetObject("customImageButton2.ImageHover")));
+            this.customImageButton2.ImageNormal = ((System.Drawing.Image)(resources.GetObject("customImageButton2.ImageNormal")));
+            this.customImageButton2.Location = new System.Drawing.Point(924, -1);
+            this.customImageButton2.Name = "customImageButton2";
+            this.customImageButton2.Size = new System.Drawing.Size(23, 23);
+            this.customImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.customImageButton2.TabIndex = 17;
+            this.customImageButton2.TabStop = false;
+            this.customImageButton2.Click += new System.EventHandler(this.customImageButton2_Click_1);
+            this.customImageButton2.MouseEnter += new System.EventHandler(this.customImageButton2_MouseEnter);
+            this.customImageButton2.MouseLeave += new System.EventHandler(this.customImageButton2_MouseLeave);
+            // 
+            // userControl11
+            // 
+            this.userControl11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.userControl11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.userControl11.Image = ((System.Drawing.Image)(resources.GetObject("userControl11.Image")));
+            this.userControl11.ImageHover = ((System.Drawing.Image)(resources.GetObject("userControl11.ImageHover")));
+            this.userControl11.ImageNormal = ((System.Drawing.Image)(resources.GetObject("userControl11.ImageNormal")));
+            this.userControl11.Location = new System.Drawing.Point(895, -1);
+            this.userControl11.Name = "userControl11";
+            this.userControl11.Size = new System.Drawing.Size(23, 23);
+            this.userControl11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.userControl11.TabIndex = 7;
+            this.userControl11.TabStop = false;
+            this.userControl11.Click += new System.EventHandler(this.userControl11_Click);
+            this.userControl11.MouseEnter += new System.EventHandler(this.userControl11_MouseEnter);
+            this.userControl11.MouseLeave += new System.EventHandler(this.userControl11_MouseLeave);
             // 
             // BigShaq1
             // 
@@ -208,6 +253,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(948, 583);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.textBox1);
@@ -220,6 +266,8 @@
             this.Controls.Add(this.customImageButton2);
             this.Controls.Add(this.userControl11);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pictureBox7);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "BigShaq1";
@@ -231,12 +279,14 @@
             this.Move += new System.EventHandler(this.Login_Move);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.customImageButton3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.userControl11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customImageButton3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.userControl11)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -255,6 +305,9 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }
 

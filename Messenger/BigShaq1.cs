@@ -161,5 +161,18 @@ namespace Messenger
            
            
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AddFriend af = new AddFriend();
+            // af.Show();
+            af.StartPosition = FormStartPosition.CenterParent;
+            af.ShowDialog();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

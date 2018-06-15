@@ -23,13 +23,31 @@ namespace Messenger.Custom
         public Friend(String nameS)
         {
             InitializeComponent();
-            label1.Text = nameS;
+            button1.Text = nameS;
             user = new User();
         }
 
         private void Friend_Load(object sender, EventArgs e)
         {
+           
+        }
 
+        private void Friend_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        bool check = false;
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+            if (check == false)
+                pictureBox1.Visible = !check;                           
+            else           
+                pictureBox1.Visible = !check;
+            
+                check = !check;
+            
         }
     }
 }

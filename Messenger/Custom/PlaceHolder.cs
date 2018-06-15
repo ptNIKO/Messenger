@@ -16,7 +16,7 @@ namespace Messenger
         {
             InitializeComponent();
             BorderStyle = BorderStyle.None;
-            ForeColor = Color.LightGray;
+             
             BackColor = Color.DodgerBlue;
             Font = new Font("Microsoft Sans", 11);
             Size = new Size(205,20);
@@ -24,8 +24,10 @@ namespace Messenger
             TabStop = false;
             Anchor = (AnchorStyles.None);
         }
+       
 
         public string PlaceText;
+        public Color colorText;
 
         public string TextPalace
         {
@@ -33,12 +35,18 @@ namespace Messenger
             set { PlaceText = value; }
         }
 
+        public Color ColorText
+        {
+            get { return colorText; }
+            set { colorText = value; }
+        }
+
         private void PlaceHolder_Enter(object sender, EventArgs e)
         {
             if (Text == PlaceText)
             {
-                Text = "";
-                ForeColor = Color.WhiteSmoke;
+                Text = "";               
+                ForeColor = colorText;
             }
         }
 
@@ -47,7 +55,8 @@ namespace Messenger
             if (Text == "")
             {
                 Text = PlaceText;
-                ForeColor = Color.LightGray;
+                ForeColor = Color.Gray;
+                
             }
         }
     }
