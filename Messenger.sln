@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger", "Messenger\Messenger.csproj", "{4B52CC05-1602-443E-B869-D7318CBE9F35}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyImageButton", "MyImageButton\MyImageButton.csproj", "{450F71B1-72A2-4F82-BC4A-A7658108DF4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF_chat", "WF_chat\WF_chat.csproj", "{4ABF5C04-34E4-4756-B6A8-E756C664200D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatHost", "ChatHost\ChatHost.csproj", "{BDFA947C-32FC-4023-B1D8-E51C260B3C23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{450F71B1-72A2-4F82-BC4A-A7658108DF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{450F71B1-72A2-4F82-BC4A-A7658108DF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{450F71B1-72A2-4F82-BC4A-A7658108DF4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ABF5C04-34E4-4756-B6A8-E756C664200D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABF5C04-34E4-4756-B6A8-E756C664200D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABF5C04-34E4-4756-B6A8-E756C664200D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABF5C04-34E4-4756-B6A8-E756C664200D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDFA947C-32FC-4023-B1D8-E51C260B3C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDFA947C-32FC-4023-B1D8-E51C260B3C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDFA947C-32FC-4023-B1D8-E51C260B3C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDFA947C-32FC-4023-B1D8-E51C260B3C23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,13 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using Messenger.Custom;
+using Messenger.ServiceChat;
 
 
 namespace Messenger
 {
-    public partial class BigShaq1 : Form
+    public partial class BigShaq1 : Form, IServiceChatCallback
     {
         private User user;
+      
 
         public BigShaq1(User user)
         {
@@ -21,14 +25,39 @@ namespace Messenger
             this.user = user;
            
         }
-
-
-
+        public BigShaq1()
+        {
+            InitializeComponent();
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
             label1.Text = user.FirstName;
+            SpawnGroups();
         }
 
+        public void SpawnGroups()
+        {
+            string nameGroups = "";
+            string connStr = @"Data Source=BOS;Initial Catalog=Messenger;Integrated Security=True";
+            SqlConnection conn = new SqlConnection(connStr);
+            try
+            {
+                conn.Open();
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+            SqlCommand cmd = new SqlCommand("Select * From Lobby", conn);
+            SqlDataReader dr = cmd.ExecuteReader();
+
+            while (dr.Read())
+            {
+                nameGroups = dr.GetString(1);
+                Groups puc = new Groups(nameGroups);                
+                flowLayoutPanel1.Controls.Add(puc);
+            }
+        }
 
         private void Form1_MouseDown(object sender, MouseEventArgs e)
         {
@@ -41,8 +70,6 @@ namespace Messenger
                 WindowState = FormWindowState.Normal; max = true;
 
             }
-
-
 
         }
 
@@ -58,7 +85,6 @@ namespace Messenger
         }
 
 
-
         private void userControl11_MouseEnter(object sender, EventArgs e)
         {
             userControl11.BackColor = Color.FromArgb(211, 211, 211);
@@ -70,24 +96,6 @@ namespace Messenger
         }
 
 
-        private void NameText_Enter(object sender, EventArgs e)
-        {
-        }
-
-        private void NameText_Leave(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void passwordText_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void passwordText_Leave(object sender, EventArgs e)
-        {
-            
-        }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -109,23 +117,6 @@ namespace Messenger
             customImageButton3.Visible = false;
         }
 
-        private void label2_MouseEnter(object sender, EventArgs e)
-        {
-
-
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-
-        }
-
-        private void label2_MouseLeave(object sender, EventArgs e)
-        {
-           
-        }
 
         private void customImageButton2_Click_1(object sender, EventArgs e)
         {
@@ -147,10 +138,6 @@ namespace Messenger
             pictureBox5.BackColor = Color.WhiteSmoke;
         }
 
-        private void Login_Move(object sender, EventArgs e)
-        {
-
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -169,10 +156,75 @@ namespace Messenger
             af.StartPosition = FormStartPosition.CenterParent;
             af.ShowDialog();
         }
+   
 
-        private void pictureBox6_Click(object sender, EventArgs e)
+        private void pictureBox4_Click(object sender, EventArgs e)
         {
+                          
+        }
 
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            flowLayoutPanel1.Controls.Clear();
+            SpawnGroups();
+        }
+
+        ///
+        bool isConnected = false;
+        ServiceChatClient client;
+        int ID;
+
+        void ConnectUser()
+        {
+            if (!isConnected)
+            {
+                client = new ServiceChatClient(new System.ServiceModel.InstanceContext(this));
+                ID = client.Connect(label1.Text);
+                isConnected = true;
+            }
+        }
+
+        void DisconnectUser()
+        {
+            if (isConnected)
+            {
+                client.Disconnect(ID);
+                client = null;
+                isConnected = false;
+            }
+
+        }
+
+  
+
+        public  void GoConection()
+        {
+            if (isConnected)
+            {
+                DisconnectUser();
+            }
+            else
+            {
+                ConnectUser();
+            }
+
+        }
+
+        public void MsgCallback(string msg)
+        {
+            listBox1.Items.Add(msg);         
+        }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (client != null)
+                {
+                    client.SendMsg(textBox1.Text, ID);
+                    textBox1.Text = string.Empty;
+                }
+            }
         }
     }
 }

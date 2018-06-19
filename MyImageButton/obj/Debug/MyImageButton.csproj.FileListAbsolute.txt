@@ -33,7 +33,6 @@ C:\Users\User\Desktop\Messenger\MyImageButton\obj\Debug\MyImageButton.csproj.Gen
 C:\Users\User\Desktop\Messenger\MyImageButton\obj\Debug\MyImageButton.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Messenger\MyImageButton\obj\Debug\MyImageButton.dll
 C:\Users\User\Desktop\Messenger\MyImageButton\obj\Debug\MyImageButton.pdb
-Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\obj\Debug\MyImageButton.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Диплом\Del\Messenger\MyImageButton\bin\Debug\MyImageButton.dll
 C:\Users\User\Desktop\Диплом\Del\Messenger\MyImageButton\bin\Debug\MyImageButton.pdb
 C:\Users\User\Desktop\Диплом\Del\Messenger\MyImageButton\obj\Debug\MyImageButton.csprojResolveAssemblyReference.cache

@@ -5,3 +5,12 @@ Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messeng
 Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\obj\Release\MyImageButton.csproj.GenerateResource.Cache
 Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\obj\Release\MyImageButton.dll
 Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\MyImageButton\obj\Release\MyImageButton.pdb
+C:\Users\User\Desktop\Диплом\Messenger\MyImageButton\bin\Release\MyImageButton.dll
+C:\Users\User\Desktop\Диплом\Messenger\MyImageButton\bin\Release\MyImageButton.pdb
+C:\Users\User\Desktop\Диплом\Messenger\MyImageButton\obj\Release\MyImageButton.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Диплом\Messenger\MyImageButton\obj\Release\MyImageButton.CustomImageButton.resources
+C:\Users\User\Desktop\Диплом\Messenger\MyImageButton\obj\Release\MyImageButton.UserControl1.resources
+C:\Users\User\Desktop\Диплом\Messenger\MyImageButton\obj\Release\MyImageButton.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Диплом\Messenger\MyImageButton\obj\Release\MyImageButton.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Диплом\Messenger\MyImageButton\obj\Release\MyImageButton.dll
+C:\Users\User\Desktop\Диплом\Messenger\MyImageButton\obj\Release\MyImageButton.pdb

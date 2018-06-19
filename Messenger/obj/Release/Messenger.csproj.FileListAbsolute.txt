@@ -14,3 +14,24 @@ Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messeng
 Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Release\Messenger.csproj.GenerateResource.Cache
 Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Release\Messenger.exe
 Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Release\Messenger.pdb
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\bin\Release\Resources\Messenger_log.ldf
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\bin\Release\Resources\Messenger.mdf
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\bin\Release\Messenger.exe.config
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\bin\Release\Messenger.exe
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\bin\Release\Messenger.pdb
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\bin\Release\MyImageButton.dll
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\bin\Release\MyImageButton.pdb
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Release\Messenger.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Release\Messenger.AddFriend.resources
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Release\Messenger.CreateLB.resources
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Release\Messenger.BigShaq1.resources
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Release\Messenger.Custom.Friend.resources
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Release\Messenger.Custom.Groups.resources
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Release\Messenger.PlaceHolder.resources
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Release\Messenger.Login.resources
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Release\Messenger.Properties.Resources.resources
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Release\Messenger.SingUp.resources
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Release\Messenger.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Release\Messenger.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Release\Messenger.exe
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Release\Messenger.pdb

@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\bin\Debug\WF_chat.dll.config
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\bin\Debug\WF_chat.dll
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\bin\Debug\WF_chat.pdb
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\obj\Debug\WF_chat.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\obj\Debug\WF_chat.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\obj\Debug\WF_chat.dll
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\obj\Debug\WF_chat.pdb

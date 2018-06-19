@@ -193,48 +193,7 @@ namespace Messenger
             }
            
 
-            //int logi = 0;
-            //using (SqlConnection con = new SqlConnection(Properties.Settings.Default.Mess))//Подключение к БД
-            //{
-            //    con.Open();
-            //    SqlCommand cmd = con.CreateCommand();
-            //    cmd.CommandText = "SELECT Count(*) FROM Users WHERE Email='" + placeHolder1.Text + "'";//Проверка на наличие одинакого Email
-            //    SqlDataReader read = cmd.ExecuteReader();
-            //    while (read.Read())
-            //    {
-            //        logi = Convert.ToInt32(read[0]);
-
-            //    }
-            //    con.Close();
-            //}
-
-            //if (logi == 1)
-            //{
-            //    MessageBox.Show("Такой Email уже существует");
-            //}
-
-
-            //else if (NameText.Text != "First Name" && passwordText.Text != "Password" && placeHolder1.Text != "Email")
-            //{
-            //    using (SqlConnection con = new SqlConnection(Properties.Settings.Default.Mess))
-            //    {
-            //        con.Open();
-            //        SqlCommand cmd = con.CreateCommand();
-            //        cmd.CommandText = "INSERT INTO Users (FirstName, Email, Password) Values('" + NameText.Text + "', '" + placeHolder1.Text + "', '" + passwordText.Text + "')";
-            //        cmd.ExecuteNonQuery();
-            //        con.Close();
-            //    }
-            //    panel1.BackColor = Color.White;
-            //    panel2.BackColor = Color.White;
-            //    panel3.BackColor = Color.White;
-            //    MessageBox.Show("Регистрация прошла успешно!");
-            //}
-            //else
-            //{
-            //    panel1.BackColor = Color.Red;
-            //    panel2.BackColor = Color.Red;
-            //    panel3.BackColor = Color.Red;
-            //}
+            
 
             /*--------------------------------------------------------------------------------------------------------------------------------
              -------------------------------------------------------------------------------------------------------------------------------- */

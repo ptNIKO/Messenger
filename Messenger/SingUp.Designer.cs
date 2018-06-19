@@ -319,6 +319,7 @@
             this.placeHolder1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.placeHolder1.BackColor = System.Drawing.Color.DodgerBlue;
             this.placeHolder1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.placeHolder1.ColorText = System.Drawing.Color.White;
             this.placeHolder1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.placeHolder1.ForeColor = System.Drawing.Color.LightGray;
             this.placeHolder1.Location = new System.Drawing.Point(372, 325);

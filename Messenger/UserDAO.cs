@@ -23,9 +23,9 @@ namespace Messenger
                 throw ex;
             }
             SqlCommand cmd = new SqlCommand("Insert into Users (FirstName, Email, Password) Values (@firstname,@email,@password)", coon);
-            cmd.Parameters.Add("@firstname", SqlDbType.VarChar).Value = user.FirstName;
-            cmd.Parameters.Add("@email", SqlDbType.VarChar).Value = user.Email;
-            cmd.Parameters.Add("@password", SqlDbType.VarChar).Value = user.Password;
+            cmd.Parameters.Add("@firstname", SqlDbType.NVarChar).Value = user.FirstName;
+            cmd.Parameters.Add("@email", SqlDbType.NVarChar).Value = user.Email;
+            cmd.Parameters.Add("@password", SqlDbType.NVarChar).Value = user.Password;
             try
             {
                 cmd.ExecuteNonQuery();
@@ -53,8 +53,8 @@ namespace Messenger
             }
 
             SqlCommand cmd = new SqlCommand("Select * From Users Where Email = @email And Password = @password", conn);
-            cmd.Parameters.Add("@email", SqlDbType.VarChar).Value = email;
-            cmd.Parameters.Add("@password", SqlDbType.VarChar).Value = password;
+            cmd.Parameters.Add("@email", SqlDbType.NVarChar).Value = email;
+            cmd.Parameters.Add("@password", SqlDbType.NVarChar).Value = password;
 
             SqlDataReader dr = cmd.ExecuteReader();
             if (dr.HasRows && dr.Read())

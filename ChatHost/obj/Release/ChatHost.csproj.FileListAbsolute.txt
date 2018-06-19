@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Диплом\Messenger\ChatHost\bin\Release\ChatHost.exe.config
+C:\Users\User\Desktop\Диплом\Messenger\ChatHost\bin\Release\ChatHost.exe
+C:\Users\User\Desktop\Диплом\Messenger\ChatHost\bin\Release\ChatHost.pdb
+C:\Users\User\Desktop\Диплом\Messenger\ChatHost\bin\Release\WF_chat.dll
+C:\Users\User\Desktop\Диплом\Messenger\ChatHost\bin\Release\WF_chat.pdb
+C:\Users\User\Desktop\Диплом\Messenger\ChatHost\bin\Release\WF_chat.dll.config
+C:\Users\User\Desktop\Диплом\Messenger\ChatHost\obj\Release\ChatHost.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Диплом\Messenger\ChatHost\obj\Release\ChatHost.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Диплом\Messenger\ChatHost\obj\Release\ChatHost.exe
+C:\Users\User\Desktop\Диплом\Messenger\ChatHost\obj\Release\ChatHost.pdb
+C:\Users\User\Desktop\Диплом\Messenger\ChatHost\bin\Release\Resources\Messenger_log.ldf
+C:\Users\User\Desktop\Диплом\Messenger\ChatHost\bin\Release\Resources\Messenger.mdf

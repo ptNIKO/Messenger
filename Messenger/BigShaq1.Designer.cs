@@ -36,11 +36,12 @@
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.customImageButton3 = new MyImageButton.CustomImageButton();
             this.customImageButton2 = new MyImageButton.CustomImageButton();
             this.userControl11 = new MyImageButton.UserControl1();
@@ -48,9 +49,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.userControl11)).BeginInit();
@@ -86,9 +87,10 @@
             // 
             this.label1.BackColor = System.Drawing.Color.DodgerBlue;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(91, 54);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(12, 52);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 26);
+            this.label1.Size = new System.Drawing.Size(222, 26);
             this.label1.TabIndex = 20;
             this.label1.Text = "Name";
             // 
@@ -138,21 +140,13 @@
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox1.Location = new System.Drawing.Point(240, 545);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(657, 38);
             this.textBox1.TabIndex = 24;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(0, -1);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(24, 24);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 25;
-            this.pictureBox4.TabStop = false;
+            this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // flowLayoutPanel1
             // 
@@ -160,9 +154,9 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.White;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 155);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 175);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(240, 390);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(240, 370);
             this.flowLayoutPanel1.TabIndex = 26;
             // 
             // button2
@@ -193,7 +187,6 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 27;
             this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox7
             // 
@@ -203,6 +196,29 @@
             this.pictureBox7.Size = new System.Drawing.Size(240, 51);
             this.pictureBox7.TabIndex = 28;
             this.pictureBox7.TabStop = false;
+            // 
+            // listBox1
+            // 
+            this.listBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBox1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 20;
+            this.listBox1.Location = new System.Drawing.Point(246, 175);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(457, 360);
+            this.listBox1.TabIndex = 29;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(213, 151);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 30;
+            this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // customImageButton3
             // 
@@ -259,9 +275,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(948, 583);
+            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.button1);
@@ -282,14 +299,13 @@
             this.Text = "Hippo";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
-            this.Move += new System.EventHandler(this.Login_Move);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.userControl11)).EndInit();
@@ -309,11 +325,12 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.ListBox listBox1;
+        public System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.PictureBox pictureBox8;
     }
 }
 

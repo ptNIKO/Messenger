@@ -238,13 +238,26 @@ namespace Messenger
             {           
                 while (true)
                 {
-                    System.Console.WriteLine("Для выхода наберите exit.");
-                    string output = System.Console.ReadLine();
-                    if (output == "exit")
+
+                
+                    System.Console.Write("Login: ");
+                    string login = System.Console.ReadLine();                 
+                    if (login == "exit")
+                        break;
+                    else if (login == "admin")
+                    {
+                        System.Console.Write("Password: ");
+                        string password = System.Console.ReadLine();
+                        if (password == "admin")
+                            System.Console.WriteLine("-----------------------------------");
+                            System.Console.WriteLine("Режим админа активирован");
+                        System.Console.Read();
                         break;
 
-              
-                  
+                    }
+                    System.Console.WriteLine("Error");
+                    System.Console.WriteLine("---------------------------------------");
+
 
                 }           
                 FreeConsole();

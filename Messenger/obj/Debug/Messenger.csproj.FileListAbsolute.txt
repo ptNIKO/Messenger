@@ -73,7 +73,6 @@ C:\Users\User\Desktop\Messenger\Messenger\obj\Debug\Messenger.csproj.GenerateRes
 C:\Users\User\Desktop\Messenger\Messenger\obj\Debug\Messenger.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Messenger\Messenger\obj\Debug\Messenger.exe
 C:\Users\User\Desktop\Messenger\Messenger\obj\Debug\Messenger.pdb
-Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Debug\Messenger.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\bin\Debug\Resources\Messenger_log.ldf
 C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\bin\Debug\Resources\Messenger.mdf
 C:\Users\User\Desktop\Диплом\Del\Messenger\Messenger\bin\Debug\Messenger.exe.config
@@ -111,3 +110,7 @@ C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Debug\Messenger.pdb
 C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Debug\Messenger.Custom.Friend.resources
 C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Debug\Messenger.CreateLB.resources
 C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Debug\Messenger.AddFriend.resources
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Debug\Messenger.AddFriend.resources
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Debug\Messenger.CreateLB.resources
+Z:\Гуров\42ИС\группа\Одиноков Дядя Сережа\Messenger\Messenger\obj\Debug\Messenger.Custom.Friend.resources
+C:\Users\User\Desktop\Диплом\Messenger\Messenger\obj\Debug\Messenger.Custom.Groups.resources

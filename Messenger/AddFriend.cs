@@ -18,26 +18,26 @@ namespace Messenger
         public AddFriend()
         {
             InitializeComponent();
-            string connStr = "Data Source=BOS;Initial Catalog=Messenger;Integrated Security=True";
+            //string connStr = "Data Source=BOS;Initial Catalog=Messenger;Integrated Security=True";
 
-            SqlConnection conn = new SqlConnection(connStr);
-            try
-            {
-                conn.Open();
-            }
-            catch (SqlException ex)
-            {
-                throw ex;
-            }
-            SqlCommand cmd = new SqlCommand("Select * From Users", conn);
-            SqlDataReader dr = cmd.ExecuteReader();
+            //SqlConnection conn = new SqlConnection(connStr);
+            //try
+            //{
+            //    conn.Open();
+            //}
+            //catch (SqlException ex)
+            //{
+            //    throw ex;
+            //}
+            //SqlCommand cmd = new SqlCommand("Select * From Users", conn);
+            //SqlDataReader dr = cmd.ExecuteReader();
 
-            while (dr.Read())
-            {
-                nameS = dr.GetString(1);
-                Friend puc = new Friend(nameS);
-                flowLayoutPanel1.Controls.Add(puc);
-            }
+            //while (dr.Read())
+            //{
+            //    nameS = dr.GetString(1);
+            //    Friend puc = new Friend(nameS);
+            //    flowLayoutPanel1.Controls.Add(puc);
+            //}
 
         }
 
@@ -73,7 +73,6 @@ namespace Messenger
 
         private void AddFriend_Load(object sender, EventArgs e)
         {
-
             flowLayoutPanel1.Focus();
         }
     }

@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\bin\Release\WF_chat.dll.config
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\bin\Release\WF_chat.dll
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\bin\Release\WF_chat.pdb
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\obj\Release\WF_chat.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\obj\Release\WF_chat.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\obj\Release\WF_chat.dll
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\obj\Release\WF_chat.pdb
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\bin\Release\Resources\Messenger_log.ldf
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\bin\Release\Resources\Messenger.mdf
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\bin\Release\Messenger.exe
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\bin\Release\MyImageButton.dll
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\bin\Release\Messenger.pdb
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\bin\Release\Messenger.exe.config
+C:\Users\User\Desktop\Диплом\Messenger\WF_chat\bin\Release\MyImageButton.pdb
